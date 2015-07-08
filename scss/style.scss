@@ -1,0 +1,66 @@
+ $gray: #eee;
+ $blueboo:#2979FF;
+ $yello:#FFEB3B;
+
+  body {
+   background-color:$gray;
+  }
+md-content.md-default-theme {
+  background-color: $gray;
+}
+md-card {
+  background-color: #fff;
+  h2:first-of-type {
+    margin-top: 0;
+  }
+  max-width: 25em;
+}
+md-toolbar {
+  .md-button.md-default-theme {
+    border-radius: 99%; // round toolbar buttons
+  }
+}
+h2 {
+  font-weight: 400;
+}
+h1 {
+  display:inline;
+}
+.md-toolbar-tools-bottom {
+  font-size: small;
+  & :last-child {
+    opacity: 1;
+  }
+}
+md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+md-sidenav {
+  fill: #737373;
+  ng-md-icon {
+    position: relative;
+    top: 5px; // adjust for svg viewbox
+  }
+}
+.user-avatar {
+  border-radius: 99%;
+}
+ .md-button.md-fab {
+//   line-height: 4rem;
+//   width: 3rem;
+//   height: 3rem;
+//   border-radius: 50%;
+   float: right;
+ }
+
+ .md-button.md-fab:hover{
+     -webkit-transform: rotate(90deg) translateY(-96px);
+     -ms-transform: rotate(90deg) translateY(-96px);
+     transform: rotate(90deg) translateY(-96px);
+     right: 0;
+     bottom: 0;
+     -webkit-transition: .3s all ease .6s;
+     transition: .3s all ease .6s;
+ }
+md-grid-tile {  transition: all 400ms ease-out 50ms; }
