@@ -1,4 +1,4 @@
-# AngularTest
+# Angular Weather Web App
 A basic weather web app.
 
 link: http://omguhh.github.io/Angular-Weather-Web-App/
