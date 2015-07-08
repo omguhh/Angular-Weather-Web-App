@@ -1,7 +1,7 @@
 # AngularTest
 A basic weather web app.
 
-link: http://omguhh.github.io/AngularTest/
+link: http://omguhh.github.io/Angular-Weather-Web-App/
 
 #TODO
 1. Connect to Flickr feed for pictures
